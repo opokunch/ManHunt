@@ -1,0 +1,2 @@
+execute as @a[scores={go_nether=1}] at @s run tellraw @a [{"selector":"@s"},{"text":" がゲートを作成\nゲートの位置[x-y-z] : ","bold": true},{"score":{"name":"@s","objective":"PosX"}},{"text":" - "},{"score":{"name":"@s","objective":"PosY"}},{"text":" - "},{"score":{"name":"@s","objective":"PosZ"}},{"text":" | ディメンション : "},{"nbt":"001","storage":"dime"}]
+effect give @a[scores={go_nether=1}] glowing 15 0 true
